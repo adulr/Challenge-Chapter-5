@@ -1,0 +1,190 @@
+body {
+    background-color:#080808;
+    opacity:75;
+}
+
+.Tank {
+    width: 1442px;
+    margin: auto;
+}
+
+
+#taskbar {
+    padding-left: 7rem;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: url(assets/main-bg.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+
+}
+
+.jumbotron h1{
+    padding-top: 17rem;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.jumbotron p{
+    padding-top: 2rem;
+    padding-bottom: 5rem ;
+    color: #fff;
+}
+
+.futer {
+    padding-top: 19rem;
+    color :  #fff;
+} 
+
+.rectangel {
+    background-image: url(assets/the-games-bg.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+   
+    height: 1051.43px;
+    
+}
+.container1 {
+    flex:2;
+    text-align-last: center;
+    color:white;
+    padding-top: 11rem;
+    
+
+}
+
+.corosel {
+    flex: 2;
+    padding: 3rem;
+    margin:auto;
+
+}
+@media (min-width: 828px){
+    .rectangel{
+        display:flex;
+        justify-content: center;
+
+    }
+    
+    .container1{
+        flex-direction: column;
+        text-align-last:right;
+    }
+    .corosel{
+        flex:4;    
+    }
+
+    
+}
+
+.rectangel1 {
+    background-image: url(assets/features.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 2px;
+   
+    background-repeat: no-repeat;
+    height: 870.26px;
+    color:white;
+    
+    
+}
+#suit h3 {
+    padding-top: 9rem;
+}
+
+
+ul li h5 {
+    color: #FFB548;
+    padding-top: 4rem;
+
+}
+ul li .tbd {
+    padding-top: 2rem;
+}
+
+
+.system{
+    background-image: radial-gradient(closest-side at 60% 55%, rgba(0, 0, 52, 0) 0%,
+    rgba(10, 10, 10, 0.50) 50%,
+    #000 95%), url(assets/requirements.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    height: 960.16px;
+}
+#req  {
+    color : #fff;
+}
+
+#flex {
+    display:flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-image: url(assets/top-score-bg.png);
+    background-size: cover;
+    margin: 0;
+    padding: 2px;
+   
+    background-repeat: no-repeat;
+    height: 870.26px;
+    color:white;
+}
+
+.topscore {
+    margin-top: 25%;
+
+}
+
+
+@media (min-width: 768px){
+    .topcore{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+}
+
+.newslatter{
+    background-image: url(assets/newsletter.png);
+    background-size: cover;
+    margin: 0;
+    padding-top: 4rem;
+   
+    background-repeat: no-repeat;
+    color:white;
+}
+
+
+.email {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.pageLogin {
+    background-image: url(assets/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 870.26px;
+    margin-top: 0;
+  }
+
+.Login {
+    height: fit-content;
+    width: 30%;
+    background-color: black;
+    margin-top: 15%;
+    border-radius: 10px;
+    opacity: 0.7;
+    /* padding-top: 2.4rem; */
+    color : white;
+    margin-left: 35%;
+}

@@ -1,0 +1,78 @@
+.hands {
+    width: 8rem;
+    height: 8rem;
+    display: inline-block;
+  }
+  .refresh {
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .pageGames {
+    background-color: #9c835f;
+  }
+  
+  nav a {
+    font-family: Open Sans;
+    font-style: Bold;
+    letter-spacing: 10%;
+    text-decoration: none;
+  }
+  
+  nav .logo {
+    width: 3rem;
+    height: 3rem;
+  }
+  nav .navbar-title {
+    color: #724c21;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+  }
+  nav .back {
+    color: #724c21;
+    font-size: 3rem;
+    font-style: bold;
+    line-height: 2rem;
+  }
+  h3 span {
+    font-family: Open Sans;
+    font-style: Bold;
+    letter-spacing: 0.3rem;
+  }
+  .player-hand:hover {
+    cursor: pointer;
+  }
+  .bingkai {
+    background-color: white !important;
+    border-radius: 30px !important;
+  }
+  
+  .versus {
+    font-size: 8rem;
+    color: red;
+  }
+  
+  .msg {
+    display: flex;
+    width: 20rem;
+    height: 10rem;
+    font-size: 4rem;
+    color: white;
+    transform: rotate(-20deg);
+    transition: all 0.5s;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .msg-win {
+    background-color: #4c9654;
+  }
+  
+  .msg-draw {
+    background-color: #035b0c;
+  }

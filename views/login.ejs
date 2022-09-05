@@ -1,0 +1,30 @@
+
+<div class="pageLogin position-relative">
+    <div class="Login position-absolute ">
+        <form action="/login" method="post" class="py-5">
+           <% if (flashMsg) { %>
+            
+            <div class="alert alert-danger w-75 m-auto" role="alert">
+               <%= flashMsg %> 
+              </div>
+           <% } %>
+             
+            <div class="mb-3 ps-4">
+            <label for="exampleInputEmail1" class="form-label" placeholder="youremail@binar.co.id">Username</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Input Your Username" aria-describedby="emailHelp" name="username" style="width: 350px;">
+            </div>
+            <div class="mb-3 ps-4">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Input Your Password" name="password" style="width: 350px;">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-warning" style="width: 250px;">Login</button>
+            </div>
+            <div class="text-center">
+                <br>
+                <p>Don't have account?</p>
+                <a href="/register" class="btn btn-warning" style="width: 250px;">Sign Up</a>
+            </div>
+        </form>
+    </div>
+</div>

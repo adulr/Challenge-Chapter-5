@@ -1,0 +1,49 @@
+ <div class="pageGames">  
+    <nav class="navbar navbar-light mt-5">
+        <div class="container-fluid d-flex justify-content-start">
+        <a class="back m-4" href="index.html">&lt;</a>
+        <a class="navbar-title me-4" href="#">
+            <img src="assets/logo.png" alt="" class="logo d-inline-block align-text-center me-4" />
+            ROCK PAPER SCISSOR
+        </a>
+        </div>
+    </nav>
+    <div class="game-pad g-4">
+        <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md">
+            <div class="player-hands d-flex flex-column">
+                <div id ="player"class="text-bold ms-auto me-auto mb-4 p-4"><h3><span>PLAYER</span></h3></div>
+                <img id="rock" src="assets/batu.png"
+                class="img-fluid player-rock player-hand hands ms-auto me-auto mb-4 p-4" onclick="gameStart.match(this)"/>
+                <img id="paper" src="assets/kertas.png"
+                class="img-fluid player-paper player-hand hands ms-auto me-auto mb-4 p-4" onclick="gameStart.match(this)"/>
+                <img id="scissor" src="assets/gunting.png"
+                class="img-fluid player-scissors player-hand hands ms-auto me-auto mb-4 p-4" onclick="gameStart.match(this)"/>
+            </div>
+            </div>
+            <div class="col-md">
+            <div class="">
+                <h2 id="msg" class="versus text-center result">VS</h2>
+            </div>
+            </div>
+            <div class="col-md">
+            <div class="comp-hands d-flex flex-column">
+                <div class="text-bold ms-auto me-auto mb-4 p-4"><h3><SPAN>COM</SPAN></h3></div>
+                <img id="comp-rock" src="assets/batu.png"
+                class="img-fluid hands comp-rock comp-hand ms-auto me-auto mb-4 p-4" />
+                <img id="comp-paper" src="assets/kertas.png"
+                class="img-fluid hands comp-hand comp-paper ms-auto me-auto mb-4 p-4" />
+                <img id="comp-scissor" src="assets/gunting.png"
+                class="img-fluid comp-hand hands comp-scissors ms-auto me-auto mb-4 p-4" />
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+            <img id="refresh" src="assets/refresh.png" class="refresh" alt="" onclick="gameStart.refresh()" />
+            </div>
+        </div>
+        </div>
+    </div>
+ </div>
